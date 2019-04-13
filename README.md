@@ -13,10 +13,11 @@ defining embodied AI tasks (e.g. navigation, instruction following, question ans
 Habitat-API currently uses [`Habitat-Sim`](https://github.com/facebookresearch/habitat-sim) as the core simulator, but is designed with a modular abstraction for the simulator backend to maintain compatibility over multiple simulators.
 
 <p align="center">
-  <img src="docs/img/habitat_compressed.gif"  height="400">
+    <img src="docs/img/habitat_compressed.gif"  height="400">
 </p>
 
 ---
+
 
 ## Table of contents
    1. [Motivation](#motivation)
@@ -30,6 +31,7 @@ Habitat-API currently uses [`Habitat-Sim`](https://github.com/facebookresearch/h
    1. [Acknowledgments](#acknowledgments)
    1. [License](#license)
    1. [References](#references)
+
 
 ## Motivation
 While there has been significant progress in the vision and language communities thanks to recent advances in deep representations, we believe there is a growing disconnect between ‘internet AI’ and embodied AI. The focus of the former is pattern recognition in images, videos, and text on datasets typically curated from the internet. The focus of the latter is to enable action by an embodied agent in an environment (e.g. a robot). This brings to the forefront issues of active perception, long-term planning, learning from interaction, and holding a dialog grounded in an environment.

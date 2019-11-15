@@ -13,9 +13,18 @@ import pytest
 try:
     import torch
 
+    import habitat
     from habitat_baselines.run import run_exp
     from habitat_baselines.common.base_trainer import BaseRLTrainer
     from habitat_baselines.config.default import get_config
+
+    print("ALL LIBS IMPORTED")
+    from habitat.core.registry import registry
+
+    _dataset = registry.get_dataset("PointNav-v1")
+    assert _dataset is not None, "Could not find dataset {}".format(
+        "PointNav-v1"
+    )
 
     baseline_installed = True
 except ImportError:

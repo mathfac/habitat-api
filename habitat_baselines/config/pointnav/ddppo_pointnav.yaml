@@ -4,8 +4,8 @@ ENV_NAME: "NavRLEnv"
 SIMULATOR_GPU_ID: 0
 TORCH_GPU_ID: 0
 VIDEO_OPTION: ["disk", "tensorboard"]
-TENSORBOARD_DIR: "tb"
-VIDEO_DIR: "video_dir"
+TENSORBOARD_DIR: "/checkpoint/maksymets/logs/habitat_baselines/ddppo"
+VIDEO_DIR: "data/video_dir"
 TEST_EPISODE_COUNT: 2
 EVAL_CKPT_PATH_DIR: "data/new_checkpoints"
 NUM_PROCESSES: 4
